@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LJ COMPLIANCE - Excelência em Validação e Compliance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1E3A8A',
+                        secondary: '#059669',
+                        accent: '#2563EB'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-primary text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i data-feather="shield" class="text-accent"></i>
+                <span class="text-xl font-bold">LJ COMPLIANCE</span>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="index.html" class="hover:text-accent font-medium">Home</a>
+                <a href="sobre.html" class="hover:text-accent font-medium">Sobre</a>
+                <a href="servicos.html" class="hover:text-accent font-medium">Serviços</a>
+</div>
+            <button class="md:hidden focus:outline-none">
+                <i data-feather="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative bg-primary text-white py-20">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Excelência em Validação e Compliance para a Indústria Life Science</h1>
+                <p class="text-xl mb-8">Soluções completas em conformidade com ANVISA Guia 33, GAMP 5 e 21 CFR Part 11.</p>
+                <div class="flex space-x-4">
+                    <a href="https://wa.me/5562998002926?text=Olá%20LJ%20COMPLIANCE,%20gostaria%20de%20uma%20proposta.
+" target="_blank"><button class="bg-accent hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition duration-300">
+                        Solicitar Contato
+                    </button></a>
+                    <a href="servicos.html" class="hover:text-accent font-medium"><button class="border border-white hover:bg-white hover:text-primary px-6 py-3 rounded-lg font-medium transition duration-300">
+                        Nossos Serviços
+                    </button></a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="http://static.photos/technology/1024x576/42" alt="Laboratório Tecnológico" class="rounded-lg shadow-2xl max-w-full h-auto">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-primary mb-4">Nossos Serviços</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Soluções especializadas para garantir conformidade regulatória em todas as etapas</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300 border-t-4 border-accent">
+                    <div class="text-accent mb-4">
+                        <i data-feather="cpu" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3">Validação de Sistemas (CSV)</h3>
+                    <p class="text-gray-600">Conformidade com Guia 33 da ANVISA e GAMP 5, garantindo a integridade de dados em sistemas computadorizados.</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300 border-t-4 border-secondary">
+                    <div class="text-secondary mb-4">
+                        <i data-feather="tool" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3">Qualificação de Equipamentos</h3>
+                    <p class="text-gray-600">IQ, OQ e PQ documentados com rastreabilidade completa para todos os equipamentos críticos.</p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300 border-t-4 border-accent">
+                    <div class="text-accent mb-4">
+                        <i data-feather="users" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3">Treinamentos Personalizados</h3>
+                    <p class="text-gray-600">Capacitação em Boas Práticas, Data Integrity e requisitos regulatórios específicos para sua equipe.</p>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300 border-t-4 border-secondary">
+                    <div class="text-secondary mb-4">
+                        <i data-feather="clipboard" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3">Consultoria em Qualidade</h3>
+                    <p class="text-gray-600">Auditorias simuladas, diagnóstico de gaps e adequação às exigências regulatórias nacionais e internacionais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Differentiators Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-primary mb-4">Por Que Escolher a LJ COMPLIANCE?</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Diferenciais que garantem excelência em nossos serviços</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center p-6">
+                    <div class="bg-primary bg-opacity-10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="lock" class="text-accent w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-primary mb-2">Conformidade Garantida</h3>
+                    <p class="text-gray-600">Atendemos rigorosamente às normas ANVISA, FDA e outras regulamentações internacionais.</p>
+                </div>
+                
+                <div class="text-center p-6">
+                    <div class="bg-primary bg-opacity-10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="file-text" class="text-accent w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-primary mb-2">Documentação Completa</h3>
+                    <p class="text-gray-600">Protocolos e relatórios auditáveis, prontos para inspeções regulatórias.</p>
+                </div>
+                
+                <div class="text-center p-6">
+                    <div class="bg-primary bg-opacity-10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="settings" class="text-accent w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-primary mb-2">Soluções Customizadas</h3>
+                    <p class="text-gray-600">Desenvolvemos estratégias específicas para cada cliente e necessidade.</p>
+                </div>
+                
+                <div class="text-center p-6">
+                    <div class="bg-primary bg-opacity-10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="award" class="text-accent w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-primary mb-2">Expertise Multidisciplinar</h3>
+                    <p class="text-gray-600">Equipe altamente qualificada com experiência em diversos segmentos da indústria.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-primary mb-4">Setores Atendidos</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Atuamos nos principais segmentos da indústria Life Science</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="bg-secondary bg-opacity-10 p-6 rounded-lg text-center border border-gray-100 hover:border-secondary transition duration-300">
+                    <i data-feather="activity" class="text-secondary w-8 h-8 mx-auto mb-3"></i>
+                    <h3 class="font-semibold text-primary">Indústria Farmacêutica</h3>
+                </div>
+                
+                <div class="bg-secondary bg-opacity-10 p-6 rounded-lg text-center border border-gray-100 hover:border-secondary transition duration-300">
+                    <i data-feather="droplet" class="text-secondary w-8 h-8 mx-auto mb-3"></i>
+                    <h3 class="font-semibold text-primary">Indústria de Cosméticos</h3>
+                </div>
+                
+                <div class="bg-secondary bg-opacity-10 p-6 rounded-lg text-center border border-gray-100 hover:border-secondary transition duration-300">
+                    <i data-feather="coffee" class="text-secondary w-8 h-8 mx-auto mb-3"></i>
+                    <h3 class="font-semibold text-primary">Alimentos e Suplementos</h3>
+                </div>
+                
+                <div class="bg-secondary bg-opacity-10 p-6 rounded-lg text-center border border-gray-100 hover:border-secondary transition duration-300">
+                    <i data-feather="thermometer" class="text-secondary w-8 h-8 mx-auto mb-3"></i>
+                    <h3 class="font-semibold text-primary">Laboratórios Clínicos</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Clients Section -->
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-primary mb-4">Nossos Clientes</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">
+                Orgulhosamente prestamos serviços de validação e compliance para empresas de referência na indústria Life Science
+            </p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-items-center">
+            <div class="flex items-center justify-center grayscale hover:grayscale-0 transition duration-300">
+                <img src="img/unipharfarma_logo.jpeg" alt="Uniphar" class="h-12 object-contain">
+            </div>
+            <div class="flex items-center justify-center grayscale hover:grayscale-0 transition duration-300">
+                <img src="img/Case-Vitamedic-Agencia-de-Publicidade-Dois-Z.webp" alt="Vitamedic" class="h-10 object-contain">
+            </div>
+            <div class="flex items-center justify-center grayscale hover:grayscale-0 transition duration-300">
+                <img src="img/biotec.png" alt="Biotec" class="h-12 object-contain">
+            </div>
+            <div class="flex items-center justify-center grayscale hover:grayscale-0 transition duration-300">
+                <img src="img/aliance.png" alt="Alliance Pharma" class="h-10 object-contain">
+            </div>
+            <div class="flex items-center justify-center grayscale hover:grayscale-0 transition duration-300">
+                <img src="img/cropped-big-logo-farmace.png" alt="Farmace" class="h-12 object-contain">
+            </div>
+            <div class="flex items-center justify-center grayscale hover:grayscale-0 transition duration-300">
+                <img src="img/logo.png" alt="Halex Istar" class="h-10 object-contain">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-primary text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-6">Pronto para Alcançar a Excelência em Compliance?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Nossa equipe está pronta para ajudar sua empresa a atender todas as exigências regulatórias com eficiência e qualidade.</p>
+            <a href="https://wa.me/5562998002926?text=Olá%20LJ%20COMPLIANCE,%20gostaria%20de%20uma%20proposta.
+" target="_blank"> <button class="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg font-bold text-lg transition duration-300 shadow-lg">
+                com um Especialista
+            </button></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-12 pb-6">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <i data-feather="shield" class="text-accent"></i>
+                        <span class="text-xl font-bold">LJ COMPLIANCE</span>
+                    </div>
+                    <p class="text-gray-400">Excelência em Validação e Compliance para a Indústria Life Science.</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Serviços</h3>
+                    <ul class="space-y-2">
+                        <li><a href="servicos.html" class="text-gray-400 hover:text-white transition">Validação de Sistemas</a></li>
+                        <li><a href="servicos.html" class="text-gray-400 hover:text-white transition">Qualificação de Equipamentos</a></li>
+                        <li><a href="servicos.html" class="text-gray-400 hover:text-white transition">Treinamentos</a></li>
+                        <li><a href="servicos.html" class="text-gray-400 hover:text-white transition">Consultoria em Qualidade</a></li>
+</ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Links Rápidos</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="sobre.html" class="text-gray-400 hover:text-white transition">Sobre Nós</a></li>
+                        <li><a href="servicos.html" class="text-gray-400 hover:text-white transition">Serviços</a></li>
+</ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contato</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-center space-x-2">
+                            <i data-feather="mail" class="w-4 h-4"></i>
+                            <span>leonardo.ljcompliance@gmail.com</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-feather="phone" class="w-4 h-4"></i>
+                            <span>(62) 99800-2926</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-feather="map-pin" class="w-4 h-4"></i>
+                            <span>São Paulo, Brasil</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm">© 2025 LJ COMPLIANCE. Todos os direitos reservados.</p>
+                <div class="flex space-x-4 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="linkedin"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <a href="https://wa.me/5562998002926?text=Olá%20LJ%20COMPLIANCE,%20gostaria%20de%20uma%20proposta.
+" target="_blank" class="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg flex items-center justify-center transition duration-300">
+            <i data-feather="message-circle" class="w-6 h-6"></i>
+        </a>
+    </div>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
