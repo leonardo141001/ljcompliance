@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços - LJ COMPLIANCE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1E3A8A',
+                        secondary: '#059669',
+                        accent: '#2563EB'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-primary text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i data-feather="shield" class="text-accent"></i>
+                <span class="text-xl font-bold">LJ COMPLIANCE</span>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="index.html" class="hover:text-accent font-medium">Home</a>
+                <a href="sobre.html" class="hover:text-accent font-medium">Sobre</a>
+                <a href="servicos.html" class="text-accent font-medium">Serviços</a>
+            </div>
+            <button class="md:hidden focus:outline-none">
+                <i data-feather="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Services Hero -->
+    <section class="relative bg-primary text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Nossos Serviços</h1>
+            <p class="text-xl max-w-2xl mx-auto">Soluções especializadas para garantir conformidade regulatória em todas as etapas</p>
+        </div>
+    </section>
+
+    <!-- Services Detail -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- CSV Validation -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-accent bg-opacity-20 p-4 rounded-full mr-4">
+                            <i data-feather="cpu" class="text-accent w-8 h-8"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-primary">Validação de Sistemas (CSV)</h2>
+                    </div>
+                    <p class="text-gray-600 mb-6">Implementação completa de processos de validação de sistemas computadorizados conforme GAMP 5 e Guia 33 da ANVISA.</p>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Validação de Sistemas LIMS, MES, ERP</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Adequação ao 21 CFR Part 11 e EU Annex 11</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Gerenciamento de Dados (Data Integrity)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Validação de Sistemas em Nuvem</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Equipment Qualification -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-secondary bg-opacity-20 p-4 rounded-full mr-4">
+                            <i data-feather="tool" class="text-secondary w-8 h-8"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-primary">Qualificação de Equipamentos</h2>
+                    </div>
+                    <p class="text-gray-600 mb-6">Qualificação completa de equipamentos críticos de acordo com normas regulatórias e requisitos de qualidade.</p>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Qualificação de Instalação (IQ)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Qualificação Operacional (OQ)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Qualificação de Performance (PQ)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Qualificação de Utilitários (PQ)</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Training -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-accent bg-opacity-20 p-4 rounded-full mr-4">
+                            <i data-feather="users" class="text-accent w-8 h-8"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-primary">Treinamentos Personalizados</h2>
+                    </div>
+                    <p class="text-gray-600 mb-6">Programas de capacitação técnica desenvolvidos para as necessidades específicas de sua equipe e processos.</p>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Treinamento em Boas Práticas (BPF, BPL)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Workshops de Data Integrity</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Capacitação em Validação de Processos</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Treinamento em Sistemas Computadorizados</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Quality Consulting -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-secondary bg-opacity-20 p-4 rounded-full mr-4">
+                            <i data-feather="clipboard" class="text-secondary w-8 h-8"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-primary">Consultoria em Qualidade</h2>
+                    </div>
+                    <p class="text-gray-600 mb-6">Suporte especializado para implementação e manutenção de sistemas de qualidade em conformidade com regulamentações.</p>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Diagnóstico de Gaps Regulatórios</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Auditorias Simuladas (Mock Inspection)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Elaboração de Documentos Regulatórios</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-secondary mr-2 mt-1 w-4 h-4"></i>
+                            <span>Adequação a RDC 301/2019 (ANVISA)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-primary mb-4">Nossa Metodologia</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Abordagem estruturada para garantir resultados consistentes e conformidade regulatória</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="text-center p-6">
+                    <div class="bg-primary bg-opacity-10 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-primary font-bold">1</span>
+                    </div>
+                    <h3 class="text-lg font-semibold text-primary mb-2">Diagnóstico</h3>
+                    <p class="text-gray-600">Avaliação inicial detalhada para identificar necessidades e gaps de conformidade.</p>
+                </div>
+                
+                <div class="text-center p-6">
+                    <div class="bg-primary bg-opacity-10 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-primary font-bold">2</span>
+                    </div>
+                    <h3 class="text-lg font-semibold text-primary mb-2">Planejamento</h3>
+                    <p class="text-gray-600">Desenvolvimento de estratégia personalizada com cronograma e entregáveis.</p>
+                </div>
+                
+                <div class="text-center p-6">
+                    <div class="bg-primary bg-opacity-10 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-primary font-bold">3</span>
+                    </div>
+                    <h3 class="text-lg font-semibold text-primary mb-2">Execução</h3>
+                    <p class="text-gray-600">Implementação dos protocolos com monitoramento contínuo e ajustes.</p>
+                </div>
+                
+                <div class="text-center p-6">
+                    <div class="bg-primary bg-opacity-10 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-primary font-bold">4</span>
+                    </div>
+                    <h3 class="text-lg font-semibold text-primary mb-2">Manutenção</h3>
+                    <p class="text-gray-600">Suporte pós-implementação e atualizações conforme mudanças regulatórias.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-primary text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-6">Precisa de Serviços Especializados em Compliance?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Nossa equipe está pronta para entender suas necessidades e oferecer a melhor solução para sua empresa.</p>
+            <button class="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg font-bold text-lg transition duration-300 shadow-lg">
+                Solicite um Orçamento
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-12 pb-6">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <i data-feather="shield" class="text-accent"></i>
+                        <span class="text-xl font-bold">LJ COMPLIANCE</span>
+                    </div>
+                    <p class="text-gray-400">Excelência em Validação e Compliance para a Indústria Life Science.</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Serviços</h3>
+                    <ul class="space-y-2">
+                        <li><a href="servicos.html" class="text-gray-400 hover:text-white transition">Validação de Sistemas</a></li>
+                        <li><a href="servicos.html" class="text-gray-400 hover:text-white transition">Qualificação de Equipamentos</a></li>
+                        <li><a href="servicos.html" class="text-gray-400 hover:text-white transition">Treinamentos</a></li>
+                        <li><a href="servicos.html" class="text-gray-400 hover:text-white transition">Consultoria em Qualidade</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Links Rápidos</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="sobre.html" class="text-gray-400 hover:text-white transition">Sobre Nós</a></li>
+                        <li><a href="servicos.html" class="text-gray-400 hover:text-white transition">Serviços</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contato</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-center space-x-2">
+                            <i data-feather="mail" class="w-4 h-4"></i>
+                            <span>contato@ljcompliance.com</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-feather="phone" class="w-4 h-4"></i>
+                            <span>(11) 99999-9999</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-feather="map-pin" class="w-4 h-4"></i>
+                            <span>São Paulo, Brasil</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm">© 2023 LJ COMPLIANCE. Todos os direitos reservados.</p>
+                <div class="flex space-x-4 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="facebook"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="linkedin"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <a href="#" class="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg flex items-center justify-center transition duration-300">
+            <i data-feather="message-circle" class="w-6 h-6"></i>
+        </a>
+    </div>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
